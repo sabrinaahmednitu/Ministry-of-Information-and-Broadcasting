@@ -31,7 +31,7 @@ const Navbar = () => {
                 tabIndex={0}
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-white rounded-box w-52"
               >
-                <li>
+                {/* <li>
                   <a>Appartments For Rent</a>
                 </li>
                 <li>
@@ -42,7 +42,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a>Townhomes For Rent</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
