@@ -1,9 +1,13 @@
-/* eslint-disable no-unused-vars */
+
+
+// /* eslint-disable no-unused-vars */
 import React from 'react';
+import './Navbar.css'
 
 const Navbar = () => {
     return (
       <div>
+        {/* next one  */}
         <div className="navbar">
           <div className="navbar-start">
             <div className="dropdown">
@@ -31,7 +35,7 @@ const Navbar = () => {
                 tabIndex={0}
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-white rounded-box w-52"
               >
-                {/* <li>
+                <li>
                   <a>Appartments For Rent</a>
                 </li>
                 <li>
@@ -42,18 +46,19 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a>Townhomes For Rent</a>
-                </li> */}
+                </li>
               </ul>
             </div>
+            {/* <a className="btn btn-ghost text-xl">Apartments.com</a> */}
           </div>
-          <div className="navbar-center">
-            <a className="btn btn-ghost text-xl">Apartments.com</a>
+          <div className="navbar-center hidden lg:flex">
+            <a className="text-xl">Apartments.com</a>
           </div>
           <div className="navbar-end">
-            <button className="btn btn-ghost">
+            <button className="btn btn-ghost nav-signBtn">
               <h2>Sign Up / Sign In</h2>
             </button>
-            <button className="btn btn-ghost bg-base-100 text-white">
+            <button className="btn btn-ghost bg-base-100 text-white nav-lastBtn">
               <a>Add a Property</a>
             </button>
           </div>
