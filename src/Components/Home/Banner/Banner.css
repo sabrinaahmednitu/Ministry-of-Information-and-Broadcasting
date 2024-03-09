@@ -1,0 +1,53 @@
+
+.apartment-banner {
+    position: relative;
+    text-align: center;
+}
+
+.apartment-banner img {
+    width: 100%;
+     height: 650px;
+    display: block;
+}
+
+.apartment-banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(139, 139, 139, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.apartment-banner-text h1 {
+  font-size: 60px;
+  line-height: 2.375rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.87px;
+  color: white;
+}
+.apartment-banner-text p {
+  font-size: 1rem;
+    line-height: 1.375rem;
+    margin-bottom: 1.5625rem;
+  color: white;
+  margin-top: 25px;
+}
+.apartment-banner-text input {
+  height: 2.5rem;
+    width: calc(50%);
+    font-size: 1rem;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid green;
+    outline: none;
+}
+.apartment-banner-text button {
+ color: white;
+ background-color: rgb(51, 172, 72);
+ height: 2.5rem;
+ padding: 0px 10px;
+ font-weight: bold;
+}
