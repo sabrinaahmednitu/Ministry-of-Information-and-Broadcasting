@@ -5,7 +5,7 @@ import photo1 from '../../../assets/image/ParkLine-apartment-in-Miami-FL.jpg';
 const RecentRent = () => {
     return (
       <div>
-        <div className='rent-cards'>
+        <div className='container mx-auto rent-cards'>
           <h1>Explore Rentals in Chicago,IL</h1>
           <div className="rents-container">
             <div className="rent-apartment">

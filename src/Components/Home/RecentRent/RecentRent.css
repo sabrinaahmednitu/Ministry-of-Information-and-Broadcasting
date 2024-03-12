@@ -1,5 +1,5 @@
 .rent-cards {
-  margin: 40px 0px;
+  padding: 40px 0px;
 }
 .rent-cards h1 {
   font-size: 40px;
@@ -13,7 +13,7 @@
 .rents-container {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
 }
 .rent-apartment {
   border: 1px solid rgb(177, 176, 174);
