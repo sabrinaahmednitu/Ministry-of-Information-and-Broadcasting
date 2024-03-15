@@ -22,3 +22,16 @@
 .rent-apartment-text {
   padding: 10px;
 }
+.recent-button{
+  padding: 25px 0px;
+}
+.recent-button button{
+ color: white;
+ background-color: rgb(51, 172, 72);
+ height: 3rem;
+ padding: 0px 30px;
+ font-weight: bold;
+ border-radius: 3px;
+   display: block;
+  margin: auto;
+}
