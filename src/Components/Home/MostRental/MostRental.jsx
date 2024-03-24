@@ -23,27 +23,29 @@ const MostRental = () => {
             </div>
             <img src={img1} alt="" />
           </div>
-        </div>
-        <div className="MostRental-container container mx-auto">
-          <h1>Discover Homeownership on</h1>
-          <p>
-            Renting is great, but maybe you’re thinking about buying a home
-            instead. We want you to find the right place. That’s why our sister
-            site, Homes.com, is designed to help you find your dream home, even
-            if you’re a first time buyer.
-          </p>
-          <div className="MostRental-card">
-            <div>
-              <h2>Explore Your Options</h2>
-              <h3>
-                Deciding to become a homeowner is a big deal! Luckily, with
-                Homes.com, you get the most accurate homes for sale property
-                data, an agent directory, and collaboration tools to browse with
-                your agent and co-shopper to help you make the right decision.
-              </h3>
-              <h4>Start Your Search</h4>
+          {/* part 2 */}
+          <div className="MostRental-container">
+            <h1>Discover Homeownership on</h1>
+            <p>
+              Renting is great, but maybe you’re thinking about buying a home
+              instead. We want you to find the right place. That’s why our
+              sister site, Homes.com, is designed to help you find your dream
+              home, even if you’re a first time buyer.
+            </p>
+            <div className="MostRental-card">
+              <div>
+                <h2>Explore Your Options</h2>
+                <h3>
+                  Deciding to become a homeowner is a big deal! Luckily, with
+                  Homes.com, you get the most accurate homes for sale property
+                  data, an agent directory, and collaboration tools to browse
+                  with your agent and co-shopper to help you make the right
+                  decision.
+                </h3>
+                <h4>Start Your Search</h4>
+              </div>
+              <img src={img2} alt="" />
             </div>
-            <img src={img2} alt="" />
           </div>
         </div>
       </div>
