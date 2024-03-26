@@ -2,7 +2,8 @@
 
 // /* eslint-disable no-unused-vars */
 import React from 'react';
-import './Navbar.css'
+import './Navbar.css';
+import appLogo from '../../assets/image/apartment.logo.png'
 
 const Navbar = () => {
     return (
@@ -51,8 +52,9 @@ const Navbar = () => {
             </div>
             {/* <a className="btn btn-ghost text-xl">Apartments.com</a> */}
           </div>
-          <div className="navbar-center hidden lg:flex">
-            <a className="text-xl">Apartments.com</a>
+          <div className=" navlogo navbar-center hidden lg:flex">
+            <img src={appLogo} alt="" />
+            <a className="text-xl ml-2">Apartments.com</a>
           </div>
           <div className="navbar-end">
             <button className="btn btn-ghost nav-signBtn">

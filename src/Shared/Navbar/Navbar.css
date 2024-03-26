@@ -1,13 +1,13 @@
-.nav-lastBtn{
-    background-color: rgb(129, 129, 125);
-    border-radius: 0px;
-    
+.nav-lastBtn {
+  background-color: rgb(129, 129, 125);
+  border-radius: 0px;
 }
-.nav-lastBtn:hover{
-    background-color: rgb(129, 129, 125);
-
+.nav-lastBtn:hover {
+  background-color: rgb(129, 129, 125);
 }
-.nav-signBtn:hover{
-   background-color: white;
-
+.nav-signBtn:hover {
+  background-color: white;
+}
+.navlogo {
+  width: 45px;
 }
