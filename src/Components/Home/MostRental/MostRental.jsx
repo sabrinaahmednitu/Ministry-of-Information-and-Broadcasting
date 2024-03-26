@@ -7,24 +7,27 @@ const MostRental = () => {
     return (
       <div>
         <div className="MostRental-container container mx-auto">
-          <h1>The Most Rental Listings</h1>
-          <p>
-            Choose from over 1 million apartments, houses, condos, and townhomes
-            for rent.
-          </p>
-          <div className="MostRental-card">
-            <div>
-              <h2>Renting Made Simple</h2>
-              <h3>
-                Browse the highest quality listings, apply online, sign your
-                lease, and even pay your rent from any device.
-              </h3>
-              <h4>Find Out More</h4>
+          <div>
+            <h1>The Most Rental Listings</h1>
+            <p>
+              Choose from over 1 million apartments, houses, condos, and
+              townhomes for rent.
+            </p>
+            <div className="MostRental-card">
+              <div className="MostRental-card-text">
+                <h2>Renting Made Simple</h2>
+                <h3>
+                  Browse the highest quality listings, apply online, sign your
+                  lease, and even pay your rent from any device.
+                </h3>
+                <h4>Find Out More</h4>
+              </div>
+              <div className="MostRental-card-img">
+                <img src={img1} alt="" />
+              </div>
             </div>
-            <img src={img1} alt="" />
           </div>
-          {/* part 2 */}
-          <div className="MostRental-container">
+          {/* <div>
             <h1>Discover Homeownership on</h1>
             <p>
               Renting is great, but maybe you’re thinking about buying a home
@@ -46,7 +49,7 @@ const MostRental = () => {
               </div>
               <img src={img2} alt="" />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );

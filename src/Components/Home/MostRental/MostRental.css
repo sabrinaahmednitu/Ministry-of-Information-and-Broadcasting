@@ -1,10 +1,23 @@
 .MostRental-card{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
     background-color: rgb(238, 238, 238);
+    max-width: 1300px;
+    margin: auto;
+}
+.MostRental-card h2{
+  font-size: 2.375rem;
+}
+.MostRental-card h3{
+    font-size: 1.625rem;
+    color: gray;
+}
+.MostRental-card h4{
+    font-size: 1.625rem;
 }
 .MostRental-container h1{
     text-align: center;
