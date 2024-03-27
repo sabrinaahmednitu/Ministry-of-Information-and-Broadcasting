@@ -1,33 +1,44 @@
-.MostRental-card{
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    background-color: rgb(238, 238, 238);
-    max-width: 1200px;
-    margin: auto;
+.MostRental-card {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(238, 238, 238);
 }
-.MostRental-card h2{
+.MostRental-card-text{
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+.MostRental-card-img {
+  width: 50%;
+}
+
+.MostRental-card-img img {
+  flex-grow: 1;
+  width: 100%;
+}
+.MostRental-card h2 {
   font-size: 2.375rem;
 }
-.MostRental-card h3{
-    font-size: 1.625rem;
-    color: gray;
+.MostRental-card h3 {
+  font-size: 1.625rem;
+  color: gray;
 }
-.MostRental-card h4{
-    font-size: 1.625rem;
+.MostRental-card h4 {
+  font-size: 1.625rem;
 }
-.MostRental-container h1{
-    text-align: center;
-    font-size: 3rem;
-    line-height: 3rem;
-    letter-spacing: -1.1px;
+.MostRental-container h1 {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3rem;
+  letter-spacing: -1.1px;
 }
-.MostRental-container p{
-    text-align: center;
+.MostRental-container p {
+  text-align: center;
   font-size: 1.375rem;
-    line-height: 1.75rem;
-    margin: 0.75rem 0 2.75rem 0;
-    color: rgb(168, 168, 168);
+  line-height: 1.75rem;
+  margin: 0.75rem 0 2.75rem 0;
+  color: rgb(168, 168, 168);
 }
+
+
