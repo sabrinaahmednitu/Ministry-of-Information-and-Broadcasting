@@ -37,6 +37,7 @@ const RecentRent = () => {
           </div>
           <div className="recent-button">
             <button>View More</button>
+            <hr className="mt-[40px]" />
           </div>
         </div>
       </div>

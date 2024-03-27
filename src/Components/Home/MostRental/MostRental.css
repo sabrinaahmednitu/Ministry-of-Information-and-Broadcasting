@@ -48,6 +48,14 @@
   color: rgb(168, 168, 168);
 }
 
+/* part 2 */
+.DiscoverPart{
+width: 50px;
+}
+.discover-container{
+  margin: 50px 0px;
+}
+
 
 @media screen and (max-width: 1050px) {
  .MostRental-card {

@@ -2,6 +2,7 @@ import React from 'react';
 import './MostRental.css';
 import img1 from '../../../assets/image/widget_renting_made_simple_469.png' 
 import img2 from '../../../assets/image/home-banner-2.jpg' 
+import ApartLogo from '../../../assets/image/apartment.logo.png' 
 
 const MostRental = () => {
     return (
@@ -27,8 +28,15 @@ const MostRental = () => {
               </div>
             </div>
           </div>
-          {/* <div>
-            <h1>Discover Homeownership on</h1>
+          <hr className="mt-[60px]" />
+          {/* second part */}
+          <div className="discover-container">
+            <h1>
+              Discover Homeownership on Apartment.com
+              {/* <span>
+                <img className="DiscoverPart" src={ApartLogo} alt="" />
+              </span> */}
+            </h1>
             <p>
               Renting is great, but maybe you’re thinking about buying a home
               instead. We want you to find the right place. That’s why our
@@ -36,7 +44,7 @@ const MostRental = () => {
               home, even if you’re a first time buyer.
             </p>
             <div className="MostRental-card">
-              <div>
+              <div className="MostRental-card-text">
                 <h2>Explore Your Options</h2>
                 <h3>
                   Deciding to become a homeowner is a big deal! Luckily, with
@@ -47,9 +55,13 @@ const MostRental = () => {
                 </h3>
                 <h4>Start Your Search</h4>
               </div>
-              <img src={img2} alt="" />
+              <div className="MostRental-card-img">
+                <img src={img2} alt="" />
+              </div>
             </div>
-          </div> */}
+          </div>
+          {/* second part */}
+          <hr className="mt-[60px]" />
         </div>
       </div>
     );
