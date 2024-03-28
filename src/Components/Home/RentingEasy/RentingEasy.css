@@ -62,6 +62,10 @@ font-size: 1.875rem;
     max-width: 1200px;
     margin: auto;
 }
+.SearchList a{
+text-decoration: underline;
+color: #0576a7;
+}
 
 @media screen and (max-width: 1050px) {
  .MostRental-card {

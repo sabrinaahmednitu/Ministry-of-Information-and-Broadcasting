@@ -62,9 +62,10 @@ const RentingEasy = () => {
         </div>
         {/* Third part */}
         <h5 className="SearchList">
-          Search over 1 million listings including apartments, houses, condos,
-          and townhomes available for rent. You’ll find your next home, in any
-          style you prefer.
+          Search over 1 million listings including <a href="">apartments</a>,
+          <a href=""> houses</a>, <a href="">condos</a>, and{' '}
+          <a href="">townhomes</a> available for rent. You’ll find your next
+          home, in any style you prefer.
         </h5>
       </div>
     </div>
