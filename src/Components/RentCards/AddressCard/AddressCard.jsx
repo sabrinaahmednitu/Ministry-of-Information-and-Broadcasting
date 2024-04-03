@@ -5,9 +5,9 @@ const AddressCard = ({ address }) => {
     <div className="address-card">
       <h2>{address.name}</h2>
       <p>{address.street}</p>
-      {/* <p>
+      <p>
         {address.city}, {address.state} {address.zip}
-      </p> */}
+      </p>
     </div>
   );
 };
