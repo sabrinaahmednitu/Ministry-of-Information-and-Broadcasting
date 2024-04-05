@@ -13,6 +13,18 @@ const MapWithAddresses = ({ addresses }) => {
       {addresses.map((address, index) => (
         <Marker key={index} position={{ lat: address.lat, lng: address.lng }} />
       ))}
+      {addresses.map((address, index) => (
+        <Marker key={index} position={{ lat: address.lat, lng: address.lng }} />
+      ))}
+      {addresses.map((address, index) => (
+        <Marker key={index} position={{ lat: address.lat, lng: address.lng }} />
+      ))}
+      {addresses.map((address, index) => (
+        <Marker key={index} position={{ lat: address.lat, lng: address.lng }} />
+      ))}
+      {addresses.map((address, index) => (
+        <Marker key={index} position={{ lat: address.lat, lng: address.lng }} />
+      ))}
     </GoogleMap>
   );
 };
