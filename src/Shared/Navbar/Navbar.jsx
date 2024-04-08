@@ -4,6 +4,7 @@
 import React from 'react';
 import './Navbar.css';
 import appLogo from '../../assets/image/apartment.logo.png'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -37,7 +38,9 @@ const Navbar = () => {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-white rounded-box w-52"
               >
                 <li>
-                  <a>Appartments For Rent</a>
+                  <Link to="/apartments">
+                    <a>Appartments For Rent</a>
+                  </Link>
                 </li>
                 <li>
                   <a>House For Rent</a>
