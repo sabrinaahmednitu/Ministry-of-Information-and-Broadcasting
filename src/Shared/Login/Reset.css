@@ -1,0 +1,56 @@
+.reset-container h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.reset-container h2 {
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+.reset-main{
+  margin-bottom: 190px;
+}
+.reset-container {
+  max-width: 380px;
+  width: 380px;
+  background: #f8f9fd;
+  background: linear-gradient(
+    0deg,
+    rgb(253, 228, 205) 0%,
+    rgb(195, 181, 247) 100%
+  );
+  border-radius: 4px;
+  padding: 25px 35px;
+  box-shadow: rgba(146, 206, 224, 0.878) 0px 30px 30px -20px;
+  margin: auto;
+  position: absolute; /* Center vertically */
+  right: 0;
+  left: 0;
+  
+}
+.reset-container .input {
+  background-color: white;
+  color: #000;
+}
+
+.reset-btn {
+  display: block;
+  width: auto;
+  font-weight: bold;
+  /* background: linear-gradient(
+    45deg,
+    rgb(16, 137, 211) 0%,
+    rgb(18, 177, 209) 100%
+  ); */
+  background-color: #ff9100;
+  color: white;
+  padding: 0px 60px;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}

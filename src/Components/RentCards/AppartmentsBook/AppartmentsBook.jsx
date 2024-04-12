@@ -68,11 +68,6 @@ const HouseCard = ({ house }) => {
         <h3>{house.address}</h3>
         <h4>{house.details}</h4>
       </div>
-      <div className="rent-apartment-text">
-        <h2>{house.name}</h2>
-        <h3>{house.address}</h3>
-        <h4>{house.details}</h4>
-      </div>
     </div>
   );
 };

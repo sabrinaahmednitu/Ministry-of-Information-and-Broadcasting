@@ -60,9 +60,9 @@ const Navbar = () => {
             <a className="text-xl ml-2">Apartments.com</a>
           </div>
           <div className="navbar-end">
-            <button className="btn btn-ghost nav-signBtn">
+            <Link className="btn btn-ghost nav-signBtn">
               <h2>Sign Up / Sign In</h2>
-            </button>
+            </Link>
             <button className="btn btn-ghost bg-base-100 text-white nav-lastBtn">
               <a>Add a Property</a>
             </button>
