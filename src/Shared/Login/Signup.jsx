@@ -5,10 +5,9 @@ import { useForm } from 'react-hook-form';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../Hooks/AuthProvider';
 import SocialLogin from './SocialLogin/SocialLogin';
-import emailjs from '@emailjs/browser';
 import './Signup.css';
 import { toast } from 'react-toastify';
-import signupimage from '../../../images/login-signup-photo/sign-concept-illustration_114360-125.avif';
+
 const Signup = () => {
    useEffect(() => {
      window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
