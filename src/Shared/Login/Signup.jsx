@@ -179,16 +179,6 @@ const Signup = () => {
               Please Login
             </Link>
           </p>
-          <p className="text-black mt-2 text-center">
-            Already have an account? <br />
-            <Link
-              className="text-green-600 font-bold"
-              to="/login"
-              onClick={navigateLogin}
-            >
-              Please Login
-            </Link>
-          </p>
           <SocialLogin></SocialLogin>
         </div>
       </div>
