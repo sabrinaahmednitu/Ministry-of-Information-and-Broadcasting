@@ -3,10 +3,10 @@ import React, { useContext, useEffect, useRef, useState } from 'react';
 import Helmet from 'react-helmet';
 import { useForm } from 'react-hook-form';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { AuthContext } from '../../../Hooks/AuthProvider';
 import SocialLogin from './SocialLogin/SocialLogin';
 import './Signup.css';
 import { toast } from 'react-toastify';
+import { AuthContext } from '../../Hooks/AuthProvider';
 
 const Signup = () => {
    useEffect(() => {

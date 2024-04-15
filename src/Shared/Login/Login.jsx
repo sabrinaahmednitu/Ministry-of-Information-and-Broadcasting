@@ -1,12 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Link, useNavigate } from 'react-router-dom';
-import { AuthContext } from '../../../Hooks/AuthProvider';
 import './Login.css';
 import SocialLogin from './SocialLogin/SocialLogin';
 
 import Helmet from 'react-helmet';
 import { toast } from 'react-toastify';
+import { AuthContext } from '../../Hooks/AuthProvider';
 const Login = () => {
 
    useEffect(() => {
