@@ -143,7 +143,7 @@ const Login = () => {
             Do not have an account? <br />
             <Link
               className="text-green-600 font-bold "
-              to="/signup"
+              to="/signin"
               onClick={navigateSignup}
             >
               Please Signup
