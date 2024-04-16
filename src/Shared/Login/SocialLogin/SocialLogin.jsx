@@ -5,10 +5,10 @@ import {
 } from 'firebase/auth';
 import { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AuthContext } from '../../../../Hooks/AuthProvider';
-import google from '../../../../images/google4.png'
-import facebook from '../../../../images/facebook.png'
+import google from '../../../assets/image/google4.png'
+import facebook from '../../../assets/image/facebook.png';
 import { toast } from 'react-toastify';
+import { AuthContext } from '../../../Hooks/AuthProvider';
 
 const SocialLogin = () => {
    const { googleLoginInProvider, verifyEmail, facebookSignUp } =
