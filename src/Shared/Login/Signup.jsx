@@ -1,5 +1,5 @@
 import { updateProfile } from 'firebase/auth';
-import React, { useContext, useEffect, useRef, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import Helmet from 'react-helmet';
 import { useForm } from 'react-hook-form';
 import { Link, useLocation, useNavigate } from 'react-router-dom';

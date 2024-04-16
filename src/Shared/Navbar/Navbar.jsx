@@ -60,7 +60,7 @@ const Navbar = () => {
             <a className="text-xl ml-2">Apartments.com</a>
           </div>
           <div className="navbar-end">
-            <Link to="/sigin" className="btn btn-ghost nav-signBtn">
+            <Link to="/signin" className="btn btn-ghost nav-signBtn">
               <h2>Sign Up / Sign In</h2>
             </Link>
             <button className="btn btn-ghost bg-base-100 text-white nav-lastBtn">
