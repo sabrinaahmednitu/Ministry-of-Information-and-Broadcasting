@@ -51,6 +51,9 @@ const Navbar = () => {
                 <li>
                   <a>Townhomes For Rent</a>
                 </li>
+                <li>
+                  <a>Townhomes For Rent</a>
+                </li>
               </ul>
             </div>
             {/* <a className="btn btn-ghost text-xl">Apartments.com</a> */}
