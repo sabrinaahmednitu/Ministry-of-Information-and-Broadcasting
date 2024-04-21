@@ -67,7 +67,6 @@ const HouseCard = ({ house }) => {
         <h2>{house.name}</h2>
         <h3>{house.address}</h3>
         <h4>{house.details}</h4>
-        <h4>{house.details}</h4>
       </div>
     </div>
   );
