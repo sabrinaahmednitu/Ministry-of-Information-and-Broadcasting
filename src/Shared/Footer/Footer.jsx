@@ -3,7 +3,7 @@ import apartmentLogo from '../../assets/image/apartment.logo.png';
 import './Footer.css';
 const Footer = () => {
   return (
-    <footer className="footer p-10">
+    <footer className="footer p-10 bg-gray-100">
       <aside>
         <div className="apartLogo">
           {' '}
