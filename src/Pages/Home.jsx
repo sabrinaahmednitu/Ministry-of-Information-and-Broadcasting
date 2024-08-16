@@ -12,8 +12,8 @@ const Home = () => {
       <MainGuest></MainGuest>
       <AllCards></AllCards>
       <HotLine></HotLine>
-          <InternalEService></InternalEService>
-          <PublicOpinion></PublicOpinion>
+      <InternalEService></InternalEService>
+      <PublicOpinion></PublicOpinion>
       <ESeba></ESeba>
     </div>
   );

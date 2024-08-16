@@ -13,7 +13,7 @@ const ESeba = () => {
         {/*  সরকারি কর্মচারী ব্যবস্থাপনা পদ্ধতি (GEMS){' '} */}
         <div className="bg-white shadow-lg overflow-hidden max-w-md w-[350px] mx-auto flex flex-col border-l-4 border-[#987D9A]">
           <div className="flex items-center p-4">
-            <h1 className="font-semibold text-[#987D9A]  text-center ">
+            <h1 className="font-semibold  text-[#3f3d3f] text-center ">
               সরকারি কর্মচারী ব্যবস্থাপনা পদ্ধতি (GEMS){' '}
             </h1>
           </div>
@@ -28,7 +28,7 @@ const ESeba = () => {
         {/* হটলাইন*/}
         <div className="bg-white shadow-lg overflow-hidden max-w-md w-[350px] mx-auto flex flex-col border-l-4 border-[#987D9A]">
           <div className="flex items-center p-4">
-            <h1 className="font-semibold text-[#987D9A]  text-center ">
+            <h1 className="font-semibold text-[#3f3d3f]  text-center ">
               হটলাইন
             </h1>
           </div>
@@ -44,7 +44,7 @@ const ESeba = () => {
         {/* জাতীয় সংগীত */}
         <div className="bg-white shadow-lg overflow-hidden max-w-md w-[350px] mx-auto flex flex-col border-l-4 border-[#987D9A]">
           <div className="flex items-center p-4">
-            <h1 className="font-semibold text-[#987D9A]  text-center">
+            <h1 className="font-semibold text-[#3f3d3f]  text-center">
               জাতীয় সংগীত
             </h1>
           </div>
@@ -62,7 +62,7 @@ const ESeba = () => {
         {/*  সামাজিক যোগাযোগ */}
         <div className="bg-white shadow-lg overflow-hidden max-w-md w-[350px] mx-auto flex flex-col border-l-4 border-[#987D9A]">
           <div className="flex items-center p-4">
-            <h1 className="font-semibold text-[#987D9A]  text-center">
+            <h1 className="font-semibold text-[#3f3d3f] text-center">
               সামাজিক যোগাযোগ
             </h1>
           </div>
@@ -71,10 +71,10 @@ const ESeba = () => {
             <img className="w-[50px] h-[50px]" src={youtube} alt="" />
           </div>
         </div>
-        {/*  কেন্দ্রীয় ই-সেবা */}
+        {/* কেন্দ্রীয় ই-সেবা */}
         <div className="bg-white shadow-lg overflow-hidden max-w-md w-[350px] mx-auto flex flex-col border-l-4 border-[#987D9A]">
           <div className="flex items-center p-4">
-            <h1 className="font-semibold text-[#987D9A] text-center">
+            <h1 className="font-semibold text-[#3f3d3f] text-center">
               কেন্দ্রীয় ই-সেবা
             </h1>
           </div>
