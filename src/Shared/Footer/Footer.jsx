@@ -23,6 +23,9 @@ const Footer = () => {
         <h6 className="footer-title">যোগাযোগ</h6>
       </nav>
       <nav>
+        <h6 className="footer-title">communication</h6>
+      </nav>
+      <nav>
         <h6 className="footer-title">ব্যবহারের শর্তাবলি</h6>
       </nav>
       <nav>
