@@ -1,22 +1,21 @@
 
-
-// /* eslint-disable no-unused-vars */
 import React from 'react';
 import './Navbar.css';
-import appLogo from '../../assets/image/apartment.logo.png'
-import { Link } from 'react-router-dom';
+import UpperNav from '../../Components/Home/UpperNav';
+import homeLogo  from'../..//assets/home_dark.png'
 
 const Navbar = () => {
     return (
       <div>
+        <UpperNav></UpperNav>
         {/* next one  */}
-        <div className="navbar">
+        <div className="navbar container mx-auto">
           <div className="navbar-start">
             <div className="dropdown">
               <div
                 tabIndex={0}
                 role="button"
-                className="btn btn-ghost btn-circle"
+                className="btn btn-ghost lg:hidden"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -29,46 +28,74 @@ const Navbar = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
-                    d="M4 6h16M4 12h16M4 18h7"
+                    d="M4 6h16M4 12h8m-8 6h16"
                   />
                 </svg>
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-white rounded-box w-52"
+                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
               >
                 <li>
-                  <Link to="/apartments">
-                    <a>Appartments For Rent</a>
-                  </Link>
+                  <a>আমাদের সম্পর্কিত </a>
                 </li>
                 <li>
-                  <a>House For Rent</a>
+                  <a>অধীনস্থ দপ্তর/সংস্থা</a>
                 </li>
                 <li>
-                  <a>Condos For Rent</a>
+                  <a>প্রকল্প</a>
                 </li>
                 <li>
-                  <a>Townhomes For Rent</a>
-                </li>
-                <li>
-                  <a>Townhomes For Rent</a>
+                  <a>যোগাযোগ ও মতামত</a>
                 </li>
               </ul>
             </div>
-            {/* <a className="btn btn-ghost text-xl">Apartments.com</a> */}
+            <a className="btn btn-ghost text-xl">
+              <img src={homeLogo} alt="" />
+            </a>
           </div>
-          <div className=" navlogo navbar-center hidden lg:flex">
-            <img src={appLogo} alt="" />
-            <a className="text-xl ml-2">Apartments.com</a>
+          <div className="navbar-center hidden lg:flex">
+            <ul className="menu menu-horizontal px-1">
+              <li>
+                <a>আমাদের সম্পর্কিত </a>
+              </li>
+              <li>
+                <a>অধীনস্থ দপ্তর/সংস্থা</a>
+              </li>
+              <li>
+                <a>প্রকল্প</a>
+              </li>
+              <li>
+                <a>যোগাযোগ ও মতামত</a>
+              </li>
+            </ul>
           </div>
           <div className="navbar-end">
-            <Link to="/signin" className="btn btn-ghost nav-signBtn">
-              <h2>Sign Up / Sign In</h2>
-            </Link>
-            <button className="btn btn-ghost bg-base-100 text-white nav-lastBtn">
-              <a>Add a Property</a>
-            </button>
+            <div className="dropdown">
+              <div tabIndex={0} role="button" className="btn m-1 bg-white border-green-700">
+                অফিসের ধরণ
+              </div>
+              <ul
+                tabIndex={0}
+                className="dropdown-content menu  rounded-box z-[1] p-2 shadow bg-white"
+              >
+                <li>
+                  <a>মন্ত্রণালয়/বিভাগ</a>
+                </li>
+                <li>
+                  <a>অধিদপ্তর বাতায়ন</a>
+                </li>
+                <li>
+                  <a>বিভাগীয় বাতায়ন</a>
+                </li>
+                <li>
+                  <a>জেলা বাতায়ন</a>
+                </li>
+                <li>
+                  <a>উপজেলা বাতায়ন</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
