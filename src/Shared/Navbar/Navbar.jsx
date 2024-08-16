@@ -19,7 +19,7 @@ const Navbar = () => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
+                  className="h-5 w-5 "
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -34,7 +34,7 @@ const Navbar = () => {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                className="menu menu-sm dropdown-content bg-white  rounded-box z-[1] mt-3 w-52 p-2 shadow"
               >
                 <li>
                   <a>আমাদের সম্পর্কিত </a>
@@ -50,7 +50,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <a className="btn btn-ghost text-xl">
+            <a className="btn btn-ghost text-xl bg-gray-100">
               <img src={homeLogo} alt="" />
             </a>
           </div>
@@ -72,7 +72,11 @@ const Navbar = () => {
           </div>
           <div className="navbar-end">
             <div className="dropdown">
-              <div tabIndex={0} role="button" className="btn m-1 bg-white border-green-700">
+              <div
+                tabIndex={0}
+                role="button"
+                className="btn m-1 bg-gray-100 border-none text-gray-600 hover:bg-[#e8dce9] "
+              >
                 অফিসের ধরণ
               </div>
               <ul

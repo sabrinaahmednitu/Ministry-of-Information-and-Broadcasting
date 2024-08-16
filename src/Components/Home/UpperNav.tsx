@@ -1,5 +1,5 @@
 import React from 'react';
-import govtLogo from '../../assets/image/logo.png'
+import govtLogo from '../../assets/image/logo.png';
 
 const UpperNav = () => {
     return (
