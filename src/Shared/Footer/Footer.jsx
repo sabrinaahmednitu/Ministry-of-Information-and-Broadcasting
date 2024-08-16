@@ -4,24 +4,12 @@ import helpingPartner from '../../assets/image/np-logo-set.png';
 const Footer = () => {
   return (
     <section>
-      <footer className="footer p-3 bg-[#987D9A] text-white">
-        <aside>
-          
-        </aside>
-        <nav>
+      <footer className="footer p-3 bg-[#987D9A] text-white ">
+        <nav className='flex gap-5 mx-auto flex-wrap'>
           <h6> গোপনীয়তার-নীতিমালা</h6>
-        </nav>
-        <nav>
           <h6>গোপনীয়তার-নীতিমালা সাইট ম্যাপ</h6>
-        </nav>
-
-        <nav>
           <h6>যোগাযোগ</h6>
-        </nav>
-        <nav>
           <h6>ব্যবহারের শর্তাবলি</h6>
-        </nav>
-        <nav>
           <h6> সচরাচর জিজ্ঞাস্য</h6>
         </nav>
       </footer>
@@ -38,7 +26,7 @@ const Footer = () => {
         </h6>
       </div>
       {/* footer 3 */}
-      <div className=" p-3 ">
+      <div className=" pt-2 pb-5">
         <div className="text-center text-[11px]">
           সাইটটি শেষ হাল-নাগাদ করা হয়েছে: ২০২৪-০৮-১৪ ১৪:০২:৩১
         </div>
