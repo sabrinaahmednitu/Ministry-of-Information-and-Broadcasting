@@ -8,7 +8,7 @@ import youtube from '../../assets/image/youtube (4).png';
 
 const ESeba = () => {
   return (
-    <div className="container mx-auto w-[90%] py-12">
+    <div className="container mx-auto w-[90%] pb-12">
       <div className="link-2 flex flex-wrap justify-center max-w-[1200px] gap-5 mx-auto pt-12">
         {/*  সরকারি কর্মচারী ব্যবস্থাপনা পদ্ধতি (GEMS){' '} */}
         <div className="bg-white shadow-lg overflow-hidden max-w-md w-[350px] mx-auto flex flex-col border-l-4 border-[#987D9A]">

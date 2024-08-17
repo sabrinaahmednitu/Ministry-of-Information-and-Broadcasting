@@ -7,8 +7,7 @@ const MainGuest = () => {
       <div className="bg-gradient-to-r from-gray-100 to-gray-200">
         <div className="container mx-auto w-[80%] flex flex-col md:flex-row justify-between gap-8 py-8 ">
           {/* Notice Section */}
-          <div className="w-full md:w-2/4 bg-white shadow-xl rounded-lg p-6">
-            {/* <div className="w-full md:w-3/5 bg-white shadow-xl rounded-lg p-6"> */}
+            <div className="w-full md:2/4 bg-white shadow-xl rounded-lg p-6">
             <h1 className="font-semibold text-gray-800 mb-4">নোটিশ বোর্ড</h1>
             <ul className="space-y-3">
               <li className="p-4 bg-gray-50 rounded-lg shadow-sm hover:bg-gray-100 transition">
@@ -40,7 +39,7 @@ const MainGuest = () => {
           </div>
 
           {/* Guest Cards Section */}
-          <div className="flex flex-col md:flex-row gap-8 w-full md:w-2/4">
+          <div className="flex flex-col md:flex-row gap-8 w-full md:w-3/4">
             <div className="guestCard flex flex-col w-full bg-white shadow-xl rounded-lg overflow-hidden transform transition-transform hover:scale-105">
               <h1 className="bg-[#ddcad7] text-white text-center  font-semibold p-4">
                 মাননীয় প্রধান উপদেষ্টা

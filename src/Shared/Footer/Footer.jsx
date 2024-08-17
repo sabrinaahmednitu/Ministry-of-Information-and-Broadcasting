@@ -4,8 +4,8 @@ import helpingPartner from '../../assets/image/np-logo-set.png';
 const Footer = () => {
   return (
     <section>
-      <footer className="footer p-3 bg-[#987D9A] text-white ">
-        <nav className='flex gap-5 mx-auto flex-wrap'>
+      <footer className=" footer p-3 bg-[#987D9A] text-white">
+        <nav className="flex justify-center lg:gap-12 gap-5  flex-wrap container mx-auto ">
           <h6> গোপনীয়তার-নীতিমালা</h6>
           <h6>গোপনীয়তার-নীতিমালা সাইট ম্যাপ</h6>
           <h6>যোগাযোগ</h6>
